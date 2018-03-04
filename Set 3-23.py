@@ -5,7 +5,7 @@ def Minimum(arr, low, high):
         if arr[i] < min:
             min = arr[i]
     return min
-arr = [20,22,25,17,44,88]
+arr = [20,40,50,60,1,70]
 n = len(arr)
 print ("The minimum element is %d"%
         Minimum(arr, 0, n+1))
