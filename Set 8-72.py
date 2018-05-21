@@ -1,5 +1,5 @@
-l = input("Input a letter of the alphabet: ")
-if l in ('a', 'A','e','E', 'i', 'I','o', 'O', 'u', 'U'):
-	print("%s yes." % l)
+l=input("Enter the string:")
+if ('a'or'A'or'e'or'E'or 'i'or'I'or'o'or'O'or'u'or 'U') in l:
+	print( "yes")
 else:
-	print("%s No." % l) 
+	print("No")
