@@ -1,17 +1,17 @@
-a=input("Enter any string:")
-n=len(a)
-l=list(a)
-a=''
+num=input("Enter any string:")
+n=len(num)
+l=list(num)
+num=''
 if n%2!=0:
 	for i in range(n//2):
-		a+=l[i]
-	a+='*'
+		num+=l[i]
+	num+='*'
 	j=n//2+1
 else:
   for i in range(n//2):
-    a+=l[i]
-  a+='*'
+    num+=l[i]
+  num+='*'
   j=n//2+1
 for i in range(j,n):
-	a+=l[i]
-print(a)
+	num+=l[i]
+print(num)
